@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog webpage</title>
+    <link rel="stylesheet" href="blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="upper">
+            <div class="left">AYAN'S PORTFOLIO</div>
+            <div class="right">
+                <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#Skills">Skills</a></li>
+              <li><a href="#project">Projects</a></li>
+              <li><a href="#service">Services</a></li>
+              <li><a href="blog.html">Blogs</a></li> 
+            
+                </ul>
+            </div>
+
+
+            <div class="buttons">
+            <button class="btn"><a href="contact.html">Contact Me</a></button>
+            </div>
+            <div class="class">
+            <button class="btn0"><a href="hireme.html">Hire Me!</a></button>
+            </div>
+
+
+        </nav>
+
+        <!--blogs website-->
+
+        <main>
+    <div class="sidebar">
+      <div class="vertical-track">
+        
+        <div class="vertical-card" onclick="openModal('AI Chip', 'verticalslider/ai.jpg' , 'The Power of the AI Chip: Driving the Next Generation of Smart Technologies')">
+          <img src="verticalslider/ai.jpg" alt="Vertical Blog Image">
+          <div class="card-content">
+            <div class="category-date">NEWS - NOV 11, 2020</div>
+            <div class="card-title">AI Chip</div>
+          </div>
+        </div>
+        
+        <div class="vertical-card" onclick="openModal('Computer Networks and Smart City', 'verticalslider/computernetworks.jpg','Building Smarter Cities: The Role of IoT and Connected Networks')">
+          <img src="verticalslider/computernetworks.jpg" alt="Vertical Blog Image">
+          <div class="card-content">
+            <div class="category-date">UPDATE - NOV 12, 2020</div>
+            <div class="card-title">Computer Networks and Smart City</div>
+          </div>
+        </div>
+        
+        <div class="vertical-card" onclick="openModal('DeepSeek', 'verticalslider/DeepSeek.jpg','DeepSeek: Exploring the Next Frontier in AI Language Models')">
+          <img src="verticalslider/DeepSeek.jpg" alt="Vertical Blog Image">
+          <div class="card-content">
+            <div class="category-date">TECH - NOV 13, 2020</div>
+            <div class="card-title">DeepSeek</div>
+          </div>
+        </div>
+        
+        <div class="vertical-card" onclick="openModal('Future of AI', 'verticalslider/futureofai.jpg','The Future of Artificial Intelligence: Innovations That Will Shape Tomorrow')">
+          <img src="verticalslider/futureofai.jpg" alt="Vertical Blog Image">
+          <div class="card-content">
+            <div class="category-date">UPDATE - NOV 12, 2020</div>
+            <div class="card-title">Future of AI</div>
+          </div>
+        </div>
+       
+        <div class="vertical-card" onclick="openModal('Google Gemini Launch', 'verticalslider/Google is betting big on AI model Gemini.jpg','Google Introduces Gemini: A Bold Step Forward in AI Innovation')">
+          <img src="verticalslider/Google is betting big on AI model Gemini.jpg" alt="Vertical Blog Image">
+          <div class="card-content">
+            <div class="category-date">UPDATE - NOV 12, 2020</div>
+            <div class="card-title">Google Gemini Launch</div>
+          </div>
+        </div>
+        
+        <div class="vertical-card" onclick="openModal('OpenAI GPT-4', 'verticalslider/gpt.jpg','GPT-4 by OpenAI: Revolutionizing Human-Machine Interaction')">
+          <img src="verticalslider/gpt.jpg" alt="Vertical Blog Image">
+          <div class="card-content">
+            <div class="category-date">UPDATE - NOV 12, 2020</div>
+            <div class="card-title">OpenAI GPT-4</div>
+          </div>
+        </div>
+        
+        <div class="vertical-card" onclick="openModal('Intel', 'verticalslider/intel.jpg','Intel’s AI Ambitions: Hardware Innovation for the Digital Age')">
+          <img src="verticalslider/intel.jpg" alt="Vertical Blog Image">
+          <div class="card-content">
+            <div class="category-date">UPDATE - NOV 12, 2020</div>
+            <div class="card-title">Intel</div>
+          </div>
+        </div>
+        
+        <div class="vertical-card" onclick="openModal('ChatGPT vs DeepSeek Comparison', 'verticalslider/Is DeepSeek Better Than ChatGPT_ A Detailed Comparison.jpg','ChatGPT vs. DeepSeek: A Comprehensive AI Model Comparison')">
+          <img src="verticalslider/Is DeepSeek Better Than ChatGPT_ A Detailed Comparison.jpg" alt="Vertical Blog Image">
+          <div class="card-content">
+            <div class="category-date">UPDATE - NOV 12, 2020</div>
+            <div class="card-title">ChatGPT vs DeepSeek Comparison</div>
+          </div>
+        </div>
+        
+        <div class="vertical-card" onclick="openModal('Machine Learning Illustration', 'verticalslider/Machine Learning_ What it is, Types & Examples.jpg','Understanding Machine Learning: Concepts, Types, and Real-World Applications')">
+          <img src="verticalslider/Machine Learning_ What it is, Types & Examples.jpg" alt="Vertical Blog Image">
+          <div class="card-content">
+            <div class="category-date">UPDATE - NOV 12, 2020</div>
+            <div class="card-title">Machine Learning Illustration</div>
+          </div>
+        </div>
+        
+        <div class="vertical-card" onclick="openModal('Multi-Cloud Computing', 'verticalslider/Multi-Cloud Networking.jpg','As cloud computing becomes an integral part of enterprise IT strategies, organizations are increasingly adopting multi-cloud architectures. This approach involves using multiple cloud services—such as AWS, Microsoft Azure, and Google Cloud—either to avoid vendor lock-in or to take advantage of specific services from different providers. In this post, we’ll explore what multi-cloud computing is, why it’s gaining traction, and how businesses can manage this complex but powerful model effectively.')">
+          <img src="verticalslider/Multi-Cloud Networking.jpg" alt="Vertical Blog Image">
+          <div class="card-content">
+            <div class="category-date">UPDATE - NOV 12, 2020</div>
+            <div class="card-title">Multi-Cloud Computing</div>
+          </div>
+        </div>
+       
+        <div class="vertical-card" onclick="openModal('Quick Start with React', 'verticalslider/Quick Start – React.jpg','React.js, developed by Facebook, is a leading JavaScript library for building user interfaces. Its component-based architecture, virtual DOM, and performance optimizations make it a go-to choice for modern web development. In this tutorial, we’ll walk through how to quickly set up a React project, understand key concepts like components and props, and build a simple interactive UI—all in under 30 minutes.')">
+          <img src="verticalslider/Quick Start – React.jpg" alt="Vertical Blog Image">
+          <div class="card-content">
+            <div class="category-date">UPDATE - NOV 12, 2020</div>
+            <div class="card-title">Quick Start with React</div>
+          </div>
+        </div>
+        
+        <div class="vertical-card" onclick="openModal('Python Programming', 'verticalslider/Python.jpg','Python is a versatile and beginner-friendly programming language known for its simplicity and power. Whether you’re building web applications, automating tasks, analyzing data, or diving into artificial intelligence, Python has libraries and tools to get the job done efficiently. This article provides a quick overview of Python’s key features, how to install it, and where to start coding—even if you have no prior experience.')">
+          <img src="verticalslider/Python.jpg" alt="Vertical Blog Image">
+          <div class="card-content">
+            <div class="category-date">UPDATE - NOV 12, 2020</div>
+            <div class="card-title">Python Programming</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <div class="container-wrapper">
+  <div class="container">
+    
+    <!-- Blog Card 1 -->
+    <div class="card">
+      <img src="blogs/android.jpg" alt="Android News">
+      <div class="card-content">
+        <div class="category-date">TECH - MAY 10, 2025</div>
+        <div class="card-title">Android: Powering the Mobile Revolution</div>
+        <div class="card-text">Android has become synonymous with mobile technology. As an open-source operating system, it powers billions of smartphones, tablets, and smart devices around the globe. Its flexibility and massive developer ecosystem make it a leading force in driving mobile innovation, app development, and IoT connectivity.</div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 2 -->
+    <div class="card">
+      <img src="blogs/applevision.jpg" alt="Apple Vision">
+      <div class="card-content">
+        <div class="category-date">DESIGN - MAY 08, 2025</div>
+        <div class="card-title">Apple Vision Pro: A Leap into Spatial Computing</div>
+        <div class="card-text">Apple’s Vision Pro is redefining the way we interact with digital content. By merging augmented reality with high-performance computing, it ushers in a new era of spatial computing. From immersive experiences to advanced productivity tools, the Vision Pro showcases how hardware and AI can revolutionize personal computing.</div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 3 -->
+    <div class="card">
+      <img src="blogs/bigddata.jpg" alt="Big Data">
+      <div class="card-content">
+        <div class="category-date">BUSINESS - MAY 05, 2025</div>
+        <div class="card-title">Big Data: The New Oil</div>
+        <div class="card-text">Big Data is at the core of decision-making in the digital age. By collecting, analyzing, and interpreting vast datasets, organizations can uncover patterns and make smarter business choices. Big Data powers everything from personalized recommendations to complex financial models.</div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 4 -->
+    <div class="card">
+      <img src="blogs/chatgpt.jpg" alt="ChatGPT">
+      <div class="card-content">
+        <div class="category-date">WORK - MAY 03, 2025</div>
+        <div class="card-title">ChatGPT & AI: The Future of Intelligence</div>
+        <div class="card-text">AI tools like ChatGPT are transforming how we work, learn, and communicate. From generating content to assisting in research and automating support, AI is not just a trend — it's becoming a vital co-pilot across industries. Its potential for creativity and efficiency is just beginning to unfold.</div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 5 -->
+    <div class="card">
+      <img src="blogs/cyber security2.jpg" alt="cyber Security">
+      <div class="card-content">
+        <div class="category-date">TECH - MAY 10, 2025</div>
+        <div class="card-title"> Cybersecurity: The Digital Shield</div>
+        <div class="card-text">With cyber threats growing in complexity, cybersecurity has never been more critical. Whether it's protecting user data or securing national infrastructure, robust defense systems are essential. Innovations in AI-driven threat detection and quantum-resistant encryption are shaping the future of digital safety.</div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 6 -->
+    <div class="card">
+      <img src="blogs/dataanalysis.jpg" alt="Data Analysis">
+      <div class="card-content">
+        <div class="category-date">TECH - MAY 10, 2025</div>
+        <div class="card-title"> Data Analysis & Science: The Brains Behind Insights</div>
+        <div class="card-text">Data science and analysis turn raw data into actionable insights. These fields combine statistics, machine learning, and programming to drive business intelligence and automation. From healthcare predictions to market trends, data scientists are solving some of the world’s toughest problems.</div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 7 -->
+    <div class="card">
+      <img src="blogs/frontend development.jpg" alt="Front-End Development">
+      <div class="card-content">
+        <div class="category-date">TECH - MAY 10, 2025</div>
+        <div class="card-title">Front-End Development: Creating Seamless Experiences</div>
+        <div class="card-text">Front-end development blends creativity with code to create intuitive user interfaces. With frameworks like React, developers build responsive and dynamic web apps that power today’s digital platforms. It’s where design meets functionality.</div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 8 -->
+    <div class="card">
+      <img src="blogs/fullstack development.jpg" alt="Full-Stack">
+      <div class="card-content">
+        <div class="category-date">TECH - MAY 10, 2025</div>
+        <div class="card-title">Full-Stack Development: Building It All</div>
+        <div class="card-text">Full-stack developers bring web applications to life from front to back. They work on everything — databases, servers, APIs, and UIs — to deliver complete, functional products. As digital demand grows, these all-rounders are in high demand across tech industries.</div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 9 -->
+    <div class="card">
+      <img src="blogs/datascience.jpg" alt="Data Science">
+      <div class="card-content">
+        <div class="category-date">TECH - MAY 10, 2025</div>
+        <div class="card-title">Data Science: The Fuel of the Digital Age</div>
+        <div class="card-text">In today's hyper-connected world, data is everywhere—from your smartphone's GPS location to the posts you like on social media. But raw data is just the beginning. What turns it into value is Data Science—the powerful blend of mathematics, statistics, and computer science used to extract meaning, solve problems, and forecast the future.</div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 10 -->
+    <div class="card">
+      <img src="blogs/future.jpg" alt="Future of Technology">
+      <div class="card-content">
+        <div class="category-date">TECH - MAY 10, 2025</div>
+        <div class="card-title">The Future of Technology: Shaping the Digital Tomorrow</div>
+        <div class="card-text">In an era where digital innovations evolve at lightning speed, the future of technology is more exciting—and unpredictable—than ever. From immersive virtual worlds built by Meta to the expanding universe of mobile apps and the essential role of web developers, the tech landscape is transforming how we live, work, and connect.
+            <br>
+            The Future of Technology: What Lies Ahead?
+            <br>
+            The next decade will be defined by intelligent, immersive, and interconnected technologies. Here's a glimpse of what's on the horizon:
+            <br>
+            Artificial Intelligence (AI) Everywhere: AI will move from being a feature to the foundation of modern tech—automating tasks, enhancing personalization, and transforming industries.
+            <br>
+            Quantum Computing: Still in its early stages, quantum computers could solve problems in seconds that would take today's supercomputers years.
+            <br>
+            5G and Beyond: Faster, more stable connections will power real-time data sharing, enabling autonomous vehicles, smart cities, and ultra-responsive apps.
+            <br>
+            Green Tech: Eco-friendly innovations like energy-efficient chips, sustainable batteries, and carbon-neutral data centers will be crucial.
+            <br>
+            Tech for Humanity: Innovations in biotech, assistive technology, and AI-driven healthcare will focus on improving quality of life.
+        </div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 11 -->
+    <div class="card">
+      <img src="blogs/meta.jpg" alt="Meta News">
+      <div class="card-content">
+        <div class="category-date">TECH - MAY 10, 2025</div>
+        <div class="card-title"> Meta and the Rise of the Metaverse</div>
+        <div class="card-text">Meta, formerly Facebook, is betting big on the Metaverse—a persistent, shared virtual space that blends digital and physical reality. Think of it as the internet brought to life: 3D avatars, virtual meetings, digital real estate, and more.
+        <br>
+        Here’s how Meta is shaping the future:
+        <br>
+        Virtual Reality (VR): Through devices like the Meta Quest, people can socialize, work, or game in virtual environments.
+        <br>
+        Augmented Reality (AR): AR overlays digital content on the real world, helping in education, retail, and remote work.
+        <br>
+        Creator Economy: The metaverse will empower digital creators to build and sell virtual goods and experiences.
+        <br>
+        Whether Meta’s vision becomes reality or not, the shift toward immersive, spatial computing is well underway.</div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 12 -->
+    <div class="card">
+      <img src="blogs/mobileappdevelopment.jpg" alt="Mobile App Development">
+      <div class="card-content">
+        <div class="category-date">TECH - MAY 10, 2025</div>
+        <div class="card-title"> Mobile App Development: The Power in Your Pocket</div>
+        <div class="card-text">Mobile apps are the frontlines of digital interaction. With over 6.5 billion smartphone users globally, mobile app development continues to thrive, focusing on:
+        <br>
+        Cross-Platform Tools: Frameworks like Flutter and React Native allow developers to build apps for iOS and Android with a single codebase.
+        <br>
+        AI Integration: Apps now leverage AI for voice assistants, image recognition, chatbots, and personalized content.
+        <br>
+        IoT Connectivity: Apps increasingly interact with smart devices—from watches to refrigerators to vehicles.
+        <br> 
+        Security & Privacy: As data privacy concerns grow, secure-by-design app development is becoming a must.
+        <br>
+        In the future, mobile apps won’t just live on phones—they’ll be integral to wearables, AR glasses, and embedded systems in everyday objects.
+    </div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 13 -->
+    <div class="card">
+      <img src="blogs/tech.jpg" alt="Tech">
+      <div class="card-content">
+        <div class="category-date">TECH - MAY 10, 2025</div>
+        <div class="card-title">Tech of the Future: What’s Coming Next?</div>
+        <div class="card-text">Some emerging technologies that will shape our world in the 2030s:
+        <br>
+        Brain-Computer Interfaces (BCI): Companies like Neuralink are exploring ways to connect human brains directly to computers.
+        <br>
+        Holographic Displays: 3D interfaces without screens could become the next wave of visual interaction.
+        <br>
+        Decentralized Internet (Web3): A web owned by users, not corporations, powered by blockchain and crypto principles.
+        <br>  
+        Edge Computing: Instead of relying on the cloud, data will be processed closer to where it's generated—improving speed and privacy.
+        <br>
+        Innovation will continue to blur the line between digital and real, creating possibilities limited only by our imagination.</div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 14 -->
+    <div class="card">
+      <img src="blogs/What Does a Web Developer Do (and How Do I Become One)_.jpg" alt="Wed Devloper does">
+      <div class="card-content">
+        <div class="category-date">TECH - MAY 10, 2025</div>
+        <div class="card-title">What Does a Web Developer Do?</div>
+        <div class="card-text">Amid all these advancements, web developers remain essential builders of the digital world. Their role includes:
+        <br>
+        Designing & Building Websites: From simple blogs to complex e-commerce platforms.
+        <br>
+        Writing Code: Using languages like HTML, CSS, JavaScript, and frameworks such as React or Angular.
+        <br>
+        Backend Development: Managing databases, servers, and APIs to ensure functionality and security.
+        <br>
+        Responsive Design: Ensuring websites look and work well on all screen sizes.
+        <br>
+        Performance Optimization: Improving load times and overall user experience.
+        <br> 
+        Web developers also adapt to trends like:
+        <br>
+        Progressive Web Apps (PWAs)—apps that work offline and feel like native mobile apps.
+        <br>
+        Accessibility: Ensuring websites are usable for people with disabilities.
+        <br>
+        Web3 & Blockchain: Creating decentralized applications and smart contracts.
+        <br>
+        In short, web developers are digital architects, and as the web evolves, their roles will become even more critical.</div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 15 -->
+    <div class="card">
+      <img src="blogs/tesla.jpg" alt="Tesla News">
+      <div class="card-content">
+        <div class="category-date">TECH - MAY 10, 2025</div>
+        <div class="card-title">Tesla – Driving the Future of Sustainable Innovation</div>
+        <div class="card-text">The Road Ahead Is Electric—and It’s Already Here
+In a world shifting rapidly toward sustainability and automation, Tesla stands at the intersection of clean energy and smart technology. Founded in 2003, Tesla is not just an automaker—it’s a global force pushing the boundaries of electric vehicles (EVs), energy storage, and artificial intelligence.</div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+    <!-- Blog Card 16 -->
+    <div class="card">
+      <img src="blogs/starlink.jpg" alt="Starlink News">
+      <div class="card-content">
+        <div class="category-date">TECH - MAY 10, 2025</div>
+        <div class="card-title">Starlink – Connecting the Planet at the Speed of Light</div>
+        <div class="card-text">The New Age of Global Internet Is in Orbit
+Imagine high-speed internet access in the heart of the Amazon rainforest, on remote Himalayan peaks, or in disaster-hit zones with no ground infrastructure. That’s not science fiction—it’s Starlink, the revolutionary satellite internet project by SpaceX.</div>
+        <span class="read-more" onclick="toggleReadMore(this)">Read More</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  </main>
+
+  <div id="modal" class="modal" onclick="closeModal(event)">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal(event)">&times;</span>
+      <img id="modal-img" src="" style="width:95%; border-radius: 8px; margin-bottom: 15px; margin-left: 13px;">
+      <h2 id="modal-title"></h2>
+      <p id="model-description"></p><!--detailed description-->
+    </div>
+  </div>
+
+
+
+ 
+
+  <script src="blog.js"></script>
+</body>
+
+
+</html>
